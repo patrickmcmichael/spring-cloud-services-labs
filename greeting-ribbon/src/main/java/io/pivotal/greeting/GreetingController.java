@@ -17,8 +17,6 @@ public class GreetingController {
 			.getLogger(GreetingController.class);
 
 	
-
-	
 	@Autowired
 	private LoadBalancerClient loadBalancerClient;
 	
